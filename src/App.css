@@ -52,6 +52,9 @@ tr {
   text-align: center;
 }
 
+/* .cards{
+  display: flex;
+} */
 .card {
   width: 18rem;
 }
