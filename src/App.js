@@ -40,7 +40,6 @@ const App = () => {
       <Restaurant />
       <TouristInfoCards />
       <Footer />
-      <SearchResults />
     </div>
   );
 };
