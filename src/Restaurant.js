@@ -1,5 +1,5 @@
 import React from "react";
-import RestaurantButton from "./RestaurantButton";
+//import RestaurantButton from "./RestaurantButton";
 import Order from "./Order";
 
 const Restaurant = () => {
@@ -9,7 +9,7 @@ const Restaurant = () => {
       <h3>Restaurant Orders</h3>
       <ul>
         {types.map(i => (
-          <Order type={i} />
+          <Order key={i} type={i} />
         ))}
       </ul>
     </div>
